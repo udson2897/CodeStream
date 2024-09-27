@@ -1,0 +1,274 @@
+html{
+    scroll-behavior: smooth;
+    
+    
+    }
+
+#banner{
+ 
+ max-width: 100%;  
+
+    
+
+}
+
+
+
+
+body{
+background-color:#e0f2fe;
+height: auto;
+
+
+ 
+
+}
+
+
+
+a img{
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+}
+
+
+
+
+
+.menup{
+    text-decoration: none;
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
+.nav{
+    list-style-type: none;
+    
+    
+    
+    
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 1000;
+    margin-left: 30%;
+    
+    
+    
+}
+
+
+#lista{
+    display: flex;
+    gap: 55px;
+    margin-top: 20px;
+    transition: color 0.3s;
+    
+    
+    
+}
+
+
+
+i{
+    margin-right: 5px;
+    
+}
+
+.menup:hover{
+    color: orangered;
+    transform: scale(1.5);
+    transition: color 0.3s;
+
+}
+
+/** o Hover serve para dar um efeito em um texto ou botão**/
+.btn:hover{
+transform: scale(1.3);
+cursor: pointer; /**Mouse**/
+transition-duration: 1s;
+
+
+}
+
+.btn{
+    margin-left: 15px;
+    margin-top: 5px;
+    
+    
+}
+
+
+
+#txt-principal{
+    padding: 10px 100px;
+    
+    
+}
+
+#rodape{
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-weight: bold;
+
+}
+
+#foto1{
+    border-radius: 100px;
+    height: 200px;
+    padding: 20px;
+}   
+
+#foto2{
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+
+
+#txt-principal h1 span{
+    color: orangered;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+    
+    
+
+
+#txt-principal p{
+    font-family: "Sofadi One", system-ui;
+    font-size: 21px;
+}
+#foto3{
+    border-radius: 15px;
+    height: 65px;
+    width: 65px;
+    margin-left: 5px;
+    
+}
+#foto3:hover{
+    transform: scale(1.2);
+    cursor: pointer; /**Mouse**/
+    transition-duration: 1s;
+
+}
+#foto2:hover{
+    transform: scale(1.2);
+    cursor: pointer; /**Mouse**/
+    transition-duration: 1s;   
+}
+
+
+button{
+
+    background-color: rgb(14, 205, 14);
+    border-radius: 100px;
+    
+    
+   
+}
+h2{
+    text-align: center;
+    font-family: "Sofadi One", system-ui;
+}
+
+.container-card{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    font-size: 13px;
+    
+
+  
+}
+
+
+#perfil{
+margin-top: 200px;
+height: 600px;
+
+
+        
+}
+    
+
+
+
+
+#projetos{
+    height:600px ;
+    padding-top: 200px;
+    
+
+
+}
+
+#conhecimentos{
+height:600px ;
+padding-top: 200px;
+
+
+}
+
+.card:hover{
+    border-color: orangered;
+    transform: scale(1.1);
+    transition-duration: 1s; 
+    
+}
+
+
+.card{
+    padding: 15px;
+    box-shadow: 5px 10px 5px 5px;
+    border-width: 4px;
+    
+    
+    
+}
+
+.card-img-top{
+    border-radius: 15px;
+    
+    
+    
+}
+
+#certificados{
+height:600px ;
+padding-top: 200px;
+ 
+}
+
+
+.espaco{
+height: 250px;
+
+}
+
+#email{
+    border-radius: 15px;
+    height: 65px;
+    width: 65px;
+    
+
+}
+
+#email:hover{
+    transform: scale(1.2);
+    cursor: pointer; /**Mouse**/
+    transition-duration: 1s;  
+}

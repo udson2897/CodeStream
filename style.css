@@ -272,3 +272,9 @@ height: 250px;
     cursor: pointer; /**Mouse**/
     transition-duration: 1s;  
 }
+
+@media (max-width: 768px) {
+      .secao4-div-card {
+          width: 100%;
+      }
+  }

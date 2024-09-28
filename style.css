@@ -273,6 +273,28 @@ height: 250px;
     transition-duration: 1s;  
 }
 
-@media (max-width: 480px) {
-  /* Estilos específicos para telas de até 480px de largura */
+@media only screen and (max-width: 480px) {
+    a img {
+        width: 150px; /* Reduz o tamanho das imagens para telas muito pequenas */
+    }
+
+    .menup {
+        font-size: 16px;
+    }
+
+    #txt-principal h1 span {
+        font-size: 35px;
+    }
+
+    #txt-principal p {
+        font-size: 18px;
+    }
+
+    #foto1 {
+        height: 150px;
+    }
+
+    .container-card {
+        font-size: 12px;
+    }
 }

@@ -274,7 +274,5 @@ height: 250px;
 }
 
 @media (max-width: 768px) {
-      .secao4-div-card {
-          width: 100%;
-      }
-  }
+  /* Estilos para telas menores que 768px */
+}

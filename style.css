@@ -273,6 +273,30 @@ height: 250px;
     transition-duration: 1s;  
 }
 
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column; /* Header em coluna para telas menores */
+        margin-left: 0;
+    }
+
+    #lista {
+        gap: 20px;
+    }
+
+    .container-card {
+        flex-direction: column; /* Coluna para exibição melhor em telas pequenas */
+        gap: 20px;
+    }
+
+    #txt-principal {
+        padding: 10px 20px;
+    }
+
+    #txt-principal h1 span {
+        font-size: 40px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
     a img {
         width: 150px; /* Reduz o tamanho das imagens para telas muito pequenas */

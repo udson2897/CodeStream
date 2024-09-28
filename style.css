@@ -273,6 +273,6 @@ height: 250px;
     transition-duration: 1s;  
 }
 
-@media (max-width: 768px) {
-  /* Estilos para telas menores que 768px */
+@media (max-width: 480px) {
+  /* Estilos específicos para telas de até 480px de largura */
 }

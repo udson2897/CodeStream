@@ -273,4 +273,16 @@ height: 250px;
     transition-duration: 1s;  
 }
 
+#carrosel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.carousel-inner{
+    width: 700px;
+}
+
 
